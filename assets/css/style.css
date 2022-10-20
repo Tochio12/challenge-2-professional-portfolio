@@ -3,3 +3,42 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: silver;
+}
+
+.header {
+    padding: 25px;
+    font-family: 'Helvetica' , 'Lucida Sana Unicode' , 'Courier New' , sans-serif;
+    background-color: rgb(99, 99, 239);
+    color: rgb(229, 216, 216);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 45px;
+    margin-left: 40px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 40px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+a{
+    color: rgb(229, 216, 216);
+    text-decoration: underline;
+}
