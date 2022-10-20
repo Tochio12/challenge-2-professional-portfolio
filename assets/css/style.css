@@ -42,3 +42,18 @@ a{
     color: rgb(229, 216, 216);
     text-decoration: underline;
 }
+
+.picture {
+    height: 280px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-image: url(../images/academic-background.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.picture h2 {
+    padding-top: 210px;
+    padding-left: 15px;
+    
+}
