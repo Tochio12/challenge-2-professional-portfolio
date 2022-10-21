@@ -25,7 +25,7 @@ body {
     padding-top: 15px;
     margin-right: 40px;
     float: right;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial' , 'Helvetica' , sans-serif;
     font-size: 20px;
 }
 
@@ -49,11 +49,40 @@ a{
     margin-bottom: 15px;
     background-image: url(../images/academic-background.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
+}
+
+figure {
+    padding: 10px;
 }
 
 .picture h2 {
-    padding-top: 210px;
+    padding-top: 190px;
     padding-left: 15px;
-    
+    font-size: 20px;
+    font-family: 'Verdana' , 'Geneva' , 'Tahoma' , sans-serif;
+    color:rgb(229, 216, 216);
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-family: 'Comic Sans MS', 'Comic Sans' , sans-serif;
+    color: rgb(99, 99, 239);
+    margin-left: 80px;
+    width: 0%;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(99, 99, 239);
+    text-align: left;
+    margin-right: 480px;
+    margin-top: 30px;
 }
