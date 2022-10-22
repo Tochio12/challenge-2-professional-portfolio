@@ -9,10 +9,13 @@ body {
 }
 
 .header {
-    padding: 25px;
+    padding: 15px;
     font-family: 'Helvetica' , 'Lucida Sana Unicode' , 'Courier New' , sans-serif;
     background-color: rgb(99, 99, 239);
     color: rgb(229, 216, 216);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .header h1 {
@@ -23,7 +26,7 @@ body {
 
 .header nav {
     padding-top: 15px;
-    margin-right: 40px;
+    margin-right: 10px;
     float: right;
     font-family: 'Arial' , 'Helvetica' , sans-serif;
     font-size: 20px;
@@ -75,14 +78,20 @@ figure {
     font-size: 40px;
     font-family: 'Comic Sans MS', 'Comic Sans' , sans-serif;
     color: rgb(99, 99, 239);
-    margin-left: 80px;
+    margin-left: 130px;
     width: 0%;
+}
+.line-1 {
+    border-right: 5px solid #1c6f78;
+    height: 120px;
+    flex: 0 18%;
 }
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(99, 99, 239);
     text-align: left;
-    margin-right: 480px;
-    margin-top: 30px;
+    margin-right: 230px;
+    margin-top: 0px;
+    line-height: 1.2;
 }
