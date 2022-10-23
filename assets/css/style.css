@@ -7,7 +7,7 @@
 body {
     background-color: silver;
 }
-
+/* style for the header*/
 .header {
     padding: 15px;
     font-family: 'Helvetica' , 'Lucida Sana Unicode' , 'Courier New' , sans-serif;
@@ -45,7 +45,7 @@ a{
     color: rgb(229, 216, 216);
     text-decoration: underline;
 }
-
+/* style to the picture*/
 .picture {
     height: 280px;
     width: 100%;
@@ -66,7 +66,10 @@ figure {
     font-family: 'Verdana' , 'Geneva' , 'Tahoma' , sans-serif;
     color:rgb(229, 216, 216);
 }
-
+/*style to the about me section*/
+section {
+    padding: 10px;
+}
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -86,6 +89,7 @@ figure {
     color: rgb(99, 99, 239);
     margin-left: 90px;
     width: 0%;
+    margin-top: auto;
 }
 .line-1 {
     border-right: 5px solid #1c6f78;
@@ -101,11 +105,29 @@ p {
     margin-top: 0px;
     line-height: 1.2;
 }
+/*style for work section */
+
+.work-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 .line-2 {
-    
+    border-right: 5px solid #1c6f78;
+    height: 120px;
+    flex: 0 18%;
+}
+
+.work {
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+    float: left;
 }
 
 .work img {
     max-height: 200px;
 }
+
+
