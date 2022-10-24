@@ -89,7 +89,7 @@ section {
     color: rgb(99, 99, 239);
     margin-left: 90px;
     width: 0%;
-    margin-top: auto;
+    margin-bottom: 140px;
 }
 .line-1 {
     border-right: 5px solid #1c6f78;
@@ -110,24 +110,41 @@ p {
 .work-info {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .line-2 {
     border-right: 5px solid #1c6f78;
-    height: 120px;
-    flex: 0 18%;
+    height: 470px;
+    margin-right: 36px;
 }
+/* style for the images of the work section*/
 
 .work {
-    align-items: center;
     display: flex;
-    margin-right: 30px;
+    margin-right: -68px;
     float: left;
 }
 
 .work img {
     max-height: 200px;
+    border: solid 1px rgb(26, 26, 82);
 }
 
+
+figcaption {
+    position: absolute;
+    margin-top: -2.4%;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(164, 222, 241);
+    border: solid 1px rgb(26, 26, 82);
+
+}
+
+.figure-3 {
+    position: relative;
+    bottom: -230px;
+    right: 470px;
+}
 
