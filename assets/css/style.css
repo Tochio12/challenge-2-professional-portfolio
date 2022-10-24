@@ -44,6 +44,9 @@ body {
 a{
     color: rgb(229, 216, 216);
     text-decoration: underline;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-bottom: 3px solid;
 }
 /* style to the picture*/
 .picture {
@@ -107,7 +110,7 @@ p {
 }
 /*style for work section */
 
-.work-info {
+.section-info {
     display: flex;
     flex-wrap: wrap;
 }
@@ -133,7 +136,6 @@ p {
 
 figcaption {
     position: absolute;
-    margin-top: -2.4%;
     margin-left: 8px;
     font-size: 14px;
     font-weight: bold;
@@ -146,5 +148,33 @@ figcaption {
     position: relative;
     bottom: -230px;
     right: 470px;
+}
+
+/* style for the conatct me section*/
+
+.contact-me-info {
+    flex: 150;
+}
+
+.line-3 {
+    border-right: 5px solid #1c6f78;
+    height: 100px;
+    margin-right: 36px;
+}
+
+.contact-me-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.contact-me-info ul a {
+    margin: 0 30px;
+    font-size: 22px;
+    color: rgb(99, 99, 239);
+    text-decoration: none;
+    border-bottom: 3px solid;
+    padding-bottom: 2px;
+}
 }
 
