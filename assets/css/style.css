@@ -131,6 +131,7 @@ p {
 .work img {
     max-height: 200px;
     border: solid 1px rgb(26, 26, 82);
+
 }
 
 
@@ -152,6 +153,10 @@ figcaption {
 
 /* style for the conatct me section*/
 
+#contact-me {
+    margin-top: 110px;
+}
+
 .contact-me-info {
     flex: 150;
 }
@@ -159,7 +164,7 @@ figcaption {
 .line-3 {
     border-right: 5px solid #1c6f78;
     height: 100px;
-    margin-right: 36px;
+    margin-right: 37px;
 }
 
 .contact-me-info ul {
@@ -175,6 +180,6 @@ figcaption {
     text-decoration: none;
     border-bottom: 3px solid;
     padding-bottom: 2px;
-}
+    margin-left: 134px;
 }
 
